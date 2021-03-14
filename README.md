@@ -77,3 +77,5 @@ You can edit and customize the training model locally by the developed IDE, and 
 it to the server, and then other 
 participating clients can parse the training model to participate the training concurrently.
 ![img_3.png](img_3.png)
+You can monitor the model performance in real time in your local machine.
+![img_4.png](img_4.png)
