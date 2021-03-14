@@ -68,3 +68,4 @@ and then update the global model and response the updated model to participating
 ```shell
 python nss.py
 ```
+![img.png](img.png)

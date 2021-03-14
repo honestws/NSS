@@ -5,7 +5,7 @@ from PyQt5 import QtWebSockets
 from PyQt5.QtCore import QUrl, pyqtSignal
 from PyQt5.QtWidgets import QWidget, QMessageBox
 
-from nssproto import res, req
+from .nssproto import res, req
 
 
 class NssGradSocket(QWidget):

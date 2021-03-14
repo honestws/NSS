@@ -4,7 +4,7 @@ from PyQt5.QtWidgets import (QTreeView, QFileSystemModel)
 from PyQt5.Qt import (QDir, QSizePolicy, QPalette, QFont)
 from PyQt5 import Qsci
 from PyQt5.Qt import Qt
-from codeeditor import CodeEditor
+from .codeeditor import CodeEditor
 
 
 class FileBrowser(QTreeView):

@@ -9,7 +9,7 @@ from PyQt5.Qt import Qt
 
 import re
 
-from configuration import Configuration
+from .configuration import Configuration
 
 
 class PythonLexer(QsciLexerPython):

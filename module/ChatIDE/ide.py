@@ -18,17 +18,16 @@ from PyQt5.Qt import Qt
 from PyQt5.QtPrintSupport import QPrintDialog
 from PyQt5.Qsci import QsciPrinter
 from requests_toolbelt import MultipartEncoder, MultipartEncoderMonitor
-
-from chatter2 import Chatter
-from codeeditor import CodeEditor
-from extroctor2 import ExtractorProcess
-from filebrowser import FileBrowser
-from paraset import ParameterSetting
-from shower2 import ShowerPanel
-from socket2 import NssGradSocket, NssChatSocket
-from tabwidget import TabWidget
-from codeview import CodeView
-from thread2 import GradMinitorThread, RecordMinitorThread, ErrorMinitorThread
+from .chatter2 import Chatter
+from .codeeditor import CodeEditor
+from .extroctor2 import ExtractorProcess
+from .filebrowser import FileBrowser
+from .paraset import ParameterSetting
+from .shower2 import ShowerPanel
+from .socket2 import NssGradSocket, NssChatSocket
+from .tabwidget import TabWidget
+from .codeview import CodeView
+from .thread2 import GradMinitorThread, RecordMinitorThread, ErrorMinitorThread
 
 
 class NSSChatIDE(QMainWindow):
