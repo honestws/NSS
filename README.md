@@ -16,7 +16,7 @@ will check the sql service even though the service is running fine
 and you can log into the MySQL prompt using mysql -uroot -p and start executing queries 
 without any problems.
 
-2. Configure the settings.py for the database in 
+2. Configure the three settings.py for the database in 
    NSS-Backend/DATASET/DATASET/settings.py, NSS-Backend/MATRIX/MATRIX/settings.py 
    and NSS-Backend/NSS/NSS/settings.py.
    A dictionary containing the settings for 
@@ -34,4 +34,26 @@ DATABASES = {
         'PORT': '3306',
         }
 }
+```
+Then execute migrations
+```shell
+cd NSS-Backend/NSS/
+python manage.py makemigrations
+python manage.py migrate
+```
+
+3. Run three backend services with different ports.
+```shell
+cd NSS-Backend/DATASET/
+python manage.py runserver 127.0.0.1:23333
+```
+
+```shell
+cd NSS-Backend/NSS/
+python manage.py runserver 127.0.0.1:23334
+```
+
+```shell
+cd NSS-Backend/MATRIX/
+python manage.py runserver 127.0.0.1:23335
 ```
