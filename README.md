@@ -1,2 +1,8 @@
 # NSS
-Federated NSS is an framework for machine learning and other computations on decentralized data. NSS has been developed to facilitate open research and experimentation with Federated Learning (FL), a subspace leaning approach to machine learning where a shared global model is trained across many participating clients that keep their training data locally.
+Federated NSS is an framework for machine learning
+and other computations on decentralized data. NSS has been 
+developed to facilitate experimentation with 
+Federated Learning (FL), a subspace leaning approach to machine 
+learning where a shared global model is trained across many 
+participating clients that
+keep their training data locally.
