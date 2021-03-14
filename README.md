@@ -73,3 +73,7 @@ You can register an individual account and login into NSS as follows:
 After login in, you can upload your dataset to the server and download datasets in server 
 to your local machine.
 ![img_1.png](img_1.png)
+You can edit and customize the training model locally by the developed IDE, and upload 
+it to the server, and then other 
+participating clients can parse the training model to participate the training concurrently.
+![img_3.png](img_3.png)
