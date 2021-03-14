@@ -17,7 +17,21 @@ and you can log into the MySQL prompt using mysql -uroot -p and start executing 
 without any problems.
 
 2. Configure the settings.py for the database in 
-   NSS-Backend/DATASET/DATASET/settings.py. 
+   NSS-Backend/DATASET/DATASET/settings.py, NSS-Backend/MATRIX/MATRIX/settings.py 
+   and NSS-Backend/NSS/NSS/settings.py.
    A dictionary containing the settings for 
-   all databases to be used with Django. It is a nested dictionary 
-   whose contents map a database alias to a dictionary containing the options for an individual database.
+   all databases to be used with Django.
+   Following connection parameters will be required.
+   
+```python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'mydatabase',
+        'USER': 'mydatabaseuser',
+        'PASSWORD': 'mypassword',
+        'HOST': '172.18.112.69',
+        'PORT': '3306',
+        }
+}
+```
