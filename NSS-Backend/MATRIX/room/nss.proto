@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message NSSProtocol {
+    string username = 1;
+    string msgtype = 2;
+    string msg = 3;
+    bytes para = 4;
+    bytes lr = 5;
+}
