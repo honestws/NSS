@@ -68,4 +68,8 @@ and then update the global model and response the updated model to participating
 ```shell
 python nss.py
 ```
+You can register an individual account and login into NSS as follows:
 ![img.png](img.png)
+After login in, you can upload your dataset to the server and download datasets in server 
+to your local machine.
+![img_1.png](img_1.png)
