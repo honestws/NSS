@@ -48,14 +48,23 @@ python manage.py migrate
 cd NSS-Backend/DATASET/
 python manage.py runserver 172.18.112.69:23333
 ```
+This **DATASET** service is used to react the client requests for upload or 
+download dataset for simulation.
 
 ```shell
 cd NSS-Backend/NSS/
 python manage.py runserver 172.18.112.69:23334
 ```
-
+This **NSS** service is used to react the client HTTP requests for frontend operations, e.g., 
+a button is clicked for login in or sign up.
 ```shell
 cd NSS-Backend/MATRIX/
 python manage.py runserver 172.18.112.69:23335
 ```
+This **MATRIX** service is used to receive the training parameters of the model in the client,
+and then update the global model and response the updated model to participating clients.
+
 ### - Run frontend GUI
+```shell
+python nss.py
+```
