@@ -1,4 +1,4 @@
-# NSS
+# Overview
 Federated NSS is an framework for machine learning
 and other computations on decentralized data. NSS has been 
 developed to facilitate experimentation with 
@@ -49,7 +49,7 @@ cd NSS-Backend/DATASET/
 python manage.py runserver 172.18.112.69:23333
 ```
 This **DATASET** service is used to react the client requests for upload or 
-download dataset for simulation.
+download dataset for federated simulation.
 
 ```shell
 cd NSS-Backend/NSS/
@@ -77,5 +77,8 @@ You can edit and customize the training model locally by the developed IDE, and 
 it to the server, and then other 
 participating clients can parse the training model to participate the training concurrently.
 ![img_3.png](img_3.png)
-You can monitor the model performance in real time in your local machine.
+You can monitor the model performance in your local machine.
 ![img_4.png](img_4.png)
+
+Request: There might be some mistakes in this repo. Please be so kind and file a short report. 
+
