@@ -8,6 +8,7 @@ participating clients that
 keep their training data locally.
 
 ## Usage
+### - Run backend services
 1. First make sure that mysql is installed on your server.
 ```shell
 service mysqld status 
@@ -45,15 +46,16 @@ python manage.py migrate
 3. Run three backend services with different ports.
 ```shell
 cd NSS-Backend/DATASET/
-python manage.py runserver 127.0.0.1:23333
+python manage.py runserver 172.18.112.69:23333
 ```
 
 ```shell
 cd NSS-Backend/NSS/
-python manage.py runserver 127.0.0.1:23334
+python manage.py runserver 172.18.112.69:23334
 ```
 
 ```shell
 cd NSS-Backend/MATRIX/
-python manage.py runserver 127.0.0.1:23335
+python manage.py runserver 172.18.112.69:23335
 ```
+### - Run frontend GUI
