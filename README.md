@@ -1,5 +1,5 @@
 # Overview
-NDNS is an framework for machine learning
+NS is a platform for machine learning
 and other computations on decentralized data. NSS has been 
 developed to facilitate experimentation with 
 Federated Learning (FL), a subspace learning approach to machine 
