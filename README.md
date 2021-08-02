@@ -1,5 +1,5 @@
 # Overview
-Federated NSS is an framework for machine learning
+NDNS is an framework for machine learning
 and other computations on decentralized data. NSS has been 
 developed to facilitate experimentation with 
 Federated Learning (FL), a subspace learning approach to machine 
