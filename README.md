@@ -1,11 +1,7 @@
 # Overview
-NS is a platform for machine learning
-and other computations on decentralized data. NSS has been 
-developed to facilitate experimentation with 
-Federated Learning (FL), a subspace learning approach to machine 
-learning where a shared global model is trained across many 
-participating clients that
-keep their training data locally.
+NS is a platform for data management
+and training on the remote server, in which the AI model was 
+updated in the null space to cast a suitable descent direction to learn a machine, the spanned null space could include infinite solutions and all optimizers we usually used are the particular solution in the null space.
 
 ## Usage
 ### - Run backend services
