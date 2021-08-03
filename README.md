@@ -76,5 +76,4 @@ participating clients can parse the training model to participate the training c
 You can monitor the model performance in your local machine.
 ![img_4.png](img_4.png)
 
-Request: There might be some mistakes in this repo. Please be so kind and file a short report. 
 
