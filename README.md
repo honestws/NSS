@@ -1,7 +1,7 @@
 # Overview
 NS is a platform for data management
 and model training on the remote server, in which the AI model was 
-updated in the null space to cast a suitable descent direction to learn a machine, the spanned null space includes infinite solutions within the descent direction of all optimizers we usually used are the particular solution in the null space.
+updated in the null space to cast a suitable descent direction to learn a machine. The spanned null space includes infinite solutions within the descent direction of all optimizers we usually used are the particular solution in the null space.
 
 ## Usage
 ### - Run backend services
