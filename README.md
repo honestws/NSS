@@ -1,7 +1,5 @@
 # Overview
-NS is a platform for data management
-and model training on the remote server, in which the AI model was 
-updated in the null space to cast a suitable descent direction to learn a machine. The spanned null space includes infinite solutions within the descent direction of all optimizers we usually used are the particular solution in the null space.
+NS is a platform for data management and model training on the remote server, in which the AI model was updated in the null space to cast a suitable descent direction to learn a machine. The null space spanned by asynchronously linear gradients includes infinite solutions in which a descent direction of all optimizers such as SGD, Rprop, RMSprop, Adam, etc, we usually used are the particular solution in the null space. This project was developed to facilitate open research and experimentation in this null space, and find a better solution with comparison to previous optimizers.
 
 ## Usage
 ### - Run backend services
